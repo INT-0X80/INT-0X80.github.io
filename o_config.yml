@@ -2,7 +2,7 @@
 title: INT_0X80 
 description: "A Page For INT_0X80"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://47.98.117.194" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://int0x80.in" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
 username: INT_0X80 菜鸡互助小组
@@ -35,7 +35,7 @@ links:
     - title: home
       url: /
       key_trigger: 1
-    - title: posts
+    - title: my posts
       url: /posts
       key_trigger: 2
     - title: series
@@ -44,17 +44,27 @@ links:
     - title: tags
       url: /tags
       key_trigger: 4
-    - title: about int_0x80
+    - title: about me
       url: /about
       key_trigger: 5
+  section_2:
+    - title: github
+      url: https://github.com/INT-0X80
+      new_tab: true
+      key_trigger: g
+    - title: telegram
+      url: https://t.me/joinchat/EoITjxAf1htRLnAufpMwiQ
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+
 
 # projects in header index
 projects:
-  - name: 2018_学习总结笔记#制作中
-    url: https://int-0x80.gitbook.io/summary2018/
-  - name: 近期比赛计划
-    url: /event
-  - name: 随缘长期交友/招新计划
-    url: /event/call4new.html
+  - name: Xman-Sumary-by_int_0x80
+    url: https://github.com/INT-0X80
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
