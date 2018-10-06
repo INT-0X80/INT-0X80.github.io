@@ -1,0 +1,70 @@
+# Site settings
+title: INT_0X80 
+description: "A Page For INT_0X80"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://47.98.117.194" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+
+# User settings
+username: INT_0X80 菜鸡互助小组
+user_description: NUIST信息安全学习小组
+user_title: INT_0X80 - 菜鸡互助(啄)小组
+email: littleice@harekaze.top
+twitter_username: loremipsum
+github_username:  loremipsum
+gplus_username:  loremipsum
+linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: loremipsum
+profile_picture: https://avatars3.githubusercontent.com/u/30999741?s=460&v=4
+telegram_link: https://t.me/joinchat/EoITjxAf1htRLnAufpMwiQ
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/victorvoid
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: http://www.twitter.com/victorvoid
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+
+
+# projects in header index
+projects:
+  - name: Xman-Sumary-by_int_0x80
+    url: #
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
